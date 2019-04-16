@@ -164,3 +164,72 @@ p{
 .inscricao{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    top: -20px;
+    left: 800px;
+ }
+
+ nav#menu li {
+     display: inline-block;
+     background-color: #bcbcc0;
+     padding: 10px;
+     margin: 2px;
+     transition: background-color 1s;
+ }
+
+ nav#menu li:hover{
+     background-color: #606060; 
+ }
+
+nav#menu h1{
+	display: none;
+}
+
+nav#menu a {
+	color: #000000;
+	text-decoration: none;
+}
+
+nav#menu a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+#menu {
+    height: 0px;
+    margin-left: 58%;
+    margin-top: 0%;
+    position: relative;
+}
+
+.etapa{
+    width: 60%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-justify: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#calendar{
+    margin-bottom: 3%;
+}
+
+.etapa-incricao{
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+hr{
+    color: black;
+}
+
+.obs{
+    color: red;
+}
+
+.rec li{
+    margin-bottom: 2%;
+}
