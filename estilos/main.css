@@ -49,6 +49,7 @@ header{
 .article-title{
     margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 3%;
 }
 .article-text{
     margin-top: 10px;
@@ -158,4 +159,8 @@ p{
 
 .desc{
     color: transparent;
+}
+
+.inscricao{
+    font-family: Arial, Helvetica, sans-serif;
 }
